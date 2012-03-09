@@ -1,0 +1,3 @@
+require './sincapun'
+
+run Sincapun
