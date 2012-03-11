@@ -30,7 +30,7 @@ role :app, host
 set :rails_env, :production
 
 # Where will it be located on a server?
-set :deploy_to, "/srv/#{application}_production"
+set :deploy_to, "/srv/#{application}"
 set :unicorn_conf, "#{deploy_to}/current/config/unicorn.rb"
 set :unicorn_pid, "#{deploy_to}/shared/pids/unicorn.pid"
 
